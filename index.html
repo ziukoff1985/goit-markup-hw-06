@@ -55,11 +55,16 @@
             </li>
           </ul>
         </address>
+        <button class="burger-button" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-hw-06-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <!-- hero image -->
-      <section class="hero-section">
+      <section class="hero-section hidden">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button" data-modal-open>
@@ -69,7 +74,7 @@
       </section>
 
       <!-- Section 1 Our Advantages -->
-      <section class="advantages-section">
+      <section class="advantages-section hidden">
         <div class="container">
           <h2 class="advantages-title visually-hidden">Our Advantages</h2>
           <ul class="advantages-list">
@@ -125,7 +130,7 @@
         </div>
       </section>
       <!-- Section 2 Our Team -->
-      <section class="team-section">
+      <section class="team-section hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -329,7 +334,7 @@
         </div>
       </section>
       <!-- Section 3 Our Portfolio -->
-      <section class="portfolio-section">
+      <section class="portfolio-section hidden">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -458,7 +463,7 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container footer-container">
         <div class="footer-logo-container">
           <a href="./index.html" class="logo footer-logo"
@@ -524,7 +529,7 @@
     </footer>
 
     <!-- Modal Window -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop hidden" data-modal>
       <div class="modal">
         <button class="close-button" type="button" data-modal-close>
           <svg class="close-icon" width="8" height="8">
