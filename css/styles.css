@@ -328,7 +328,6 @@ button {
 .mobile-menu-contacts {
   font-style: normal;
   margin-bottom: 48px;
-  /* display: block; */
 }
 
 .mobile-menu-contacts-list {
@@ -414,7 +413,6 @@ button {
   background-position: center;
   background-size: cover;
   max-width: 320px;
-  /* height: 432px; */
 }
 
 @media screen and (-vebkit-min-device-pixel-ratio: 2),
@@ -439,7 +437,6 @@ button {
       ),
       url(../images/hw-06/hero/bg-hero-tab-@1x-min.jpg);
     max-width: 768px;
-    /* height: 436px; */
   }
   @media (-vebkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
@@ -464,7 +461,6 @@ button {
       ),
       url(../images/hw-06/hero/bg-hero-desktop-@1x-min.jpg);
     max-width: 1440px;
-    /* height: 600px; */
     background-size: cover;
   }
   @media (-vebkit-min-device-pixel-ratio: 2),
@@ -601,7 +597,6 @@ button {
   .advantages-list {
     flex-wrap: nowrap;
     row-gap: 0;
-    /* align-items: center; */
   }
 
   .advantages-item {
@@ -1315,7 +1310,7 @@ button {
 .span-text {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 2px;
   justify-content: center;
 }
 
